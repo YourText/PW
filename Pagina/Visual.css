@@ -1,0 +1,103 @@
+/* Estilo global */
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f8ff; /* Fondo azul claro */
+    color: #333; /* Texto oscuro */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezado */
+.header {
+    background: linear-gradient(90deg, #008080, #20b2aa); /* Gradiente verde agua */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Contenido principal */
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilo para secciones */
+.main-content section {
+    margin-bottom: 30px;
+}
+
+.main-content h2 {
+    font-size: 1.8rem;
+    color: #006666; /* Verde oscuro */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #20b2aa;
+    display: inline-block;
+}
+
+/* Listas estilizadas */
+.styled-list {
+    list-style: none; /* Elimina los estilos predeterminados */
+    padding: 0;
+}
+
+.styled-list li {
+    background: #fff; /* Fondo blanco */
+    border: 2px solid #20b2aa; /* Borde verde agua */
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.styled-list li:hover {
+    background-color: #20b2aa; /* Fondo verde agua al pasar el ratón */
+    color: #fff; /* Texto blanco */
+    transform: translateY(-5px); /* Elevación ligera */
+}
+
+/* Estilo para listas anidadas */
+.styled-list.nested > li > ul {
+    padding-left: 20px;
+}
+
+.styled-list.nested > li > ul > li {
+    background: #e0f7fa; /* Fondo azul claro para sublistas */
+}
+
+/* Estilo para imágenes */
+.animal-img {
+    display: block;
+    width: 100%; /* Imagen responsiva */
+    max-width: 300px; /* Tamaño máximo */
+    margin: 10px auto; /* Centrado vertical y horizontal */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Pie de página */
+.footer {
+    background: #008080; /* Verde oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
